@@ -47,7 +47,7 @@ Sistema de gerenciamento hospitalar para o departamento de emergência, desenvol
 
 ## 🛠️ Tecnologias Utilizadas
 
-- Java 8+
+- Java 21.0.7
 - Paradigma de Orientação a Objetos (POO)
 - Tratamento de exceções customizadas
 - Utilização de coleções Java (`ArrayList`, `List`)
