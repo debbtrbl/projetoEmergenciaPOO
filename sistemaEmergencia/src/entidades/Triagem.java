@@ -15,6 +15,7 @@ public class Triagem implements Classificavel{
 	private int oximetro;
 	private List<String> sintomas = new ArrayList<>();
 	private String classificacao;
+	private String diagnostico;
 	
 	public Triagem(Paciente paciente, Enfermeiro enfermeiro, String pressaoArterial, float temperatura, int oximetro,
 			List<String> sintomas, String classificacao) {
@@ -83,6 +84,14 @@ public class Triagem implements Classificavel{
 
 	public void setClassificacao(String classificacao) {
 		this.classificacao = classificacao;
+	}
+	
+	public String getDiagnostico() {
+	    return diagnostico;
+	}
+
+	public void setDiagnostico(String diagnostico) {
+	    this.diagnostico = diagnostico;
 	}
 
 	@Override

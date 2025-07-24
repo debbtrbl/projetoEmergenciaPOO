@@ -36,8 +36,4 @@ public abstract class Pessoa {
         this.cpf = cpf;
     }
 
-	public void dadosFuncionario() {
-		// TODO Auto-generated method stub
-		
-	}
 }
